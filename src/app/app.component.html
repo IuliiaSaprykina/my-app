@@ -1,0 +1,6 @@
+<app-nav></app-nav>
+<section>
+  <router-outlet></router-outlet>
+</section>
+<input [class.is-invalid] = "userEmails.get('email').invalid && userEmails.get('email').touched"
+	type="email" class="form-control" formControlName="email" />
