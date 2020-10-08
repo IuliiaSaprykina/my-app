@@ -3,39 +3,80 @@ body {
 }
 
 .volga-arena{
-    border: 3px solid blue;
+    margin: 4%;
+    border: 3px solid #7b71b3;
     padding: 20px 40px 40px;
     min-width: 30%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 6px #614f4f;
+    background-color: #b9b1e473;
 }
 
 .volga-photo{
+    width: auto 60%;
     min-width: 350px;
-    margin-right: 10%;
+    margin-right: 5%;
     float: left;
+}
+
+.volga-arena h3{
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: slateblue solid underline;
+    text-underline-position: under;
+}
+
+.masters-project h3{
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: slateblue solid underline;
+    text-underline-position: under;
 }
 
 
 .volga-text{
     display: inline;
+    font-size: large;
 }
 
 .masters-project{
-    border: 3px solid blue;
+    margin: 4%;
+    border: 3px solid #7b71b3;
     padding: 20px 40px 40px;
     min-width: 30%;
+    min-height: 400px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 6px #614f4f;
+    background-color: #b9b1e473;
 }
 
 .masters-video{
     min-width: 350px;
-    margin-right: 10%;
+    margin-right: 5%;
     float: left;
 }
 
 .masters-text{
     display: inline;
+    font-size: large;
+}
+
+.about-card h3{ 
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: slateblue solid underline;
+    text-underline-position: under;
 }
 
 .about-card{
- background-color: aqua;
+    font-size: large;
+    margin: 4%;
+    border: 3px solid #7b71b3;
+    padding: 20px 40px 40px;
+    min-width: 30%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 6px #614f4f;
+    background-color: #b9b1e473;
+    text-align: center;
 }
 
