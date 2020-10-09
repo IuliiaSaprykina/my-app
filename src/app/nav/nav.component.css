@@ -8,6 +8,7 @@ header {
 
 nav {
     justify-self: right;
+    font-size: large;
 }
 
 ul {
@@ -15,6 +16,7 @@ ul {
     margin: 0; padding: 0;
     margin-top: 17px;
 }
+
 
 li {
     float: left;
