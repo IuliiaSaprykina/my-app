@@ -1,33 +1,17 @@
 
-.bg {
-    background-image: url("https://sun9-9.userapi.com/c841524/v841524153/40cf5/-xmnDSdMVj8.jpg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-  }
-
-.gray {
-    color: gray;
-}
 
 .large {
     font-size: 4em;
 }
 
 .home-container{
-    text-align: center;
-    display: flex;
-    list-style-type: none;
-    flex-flow: row wrap;
-    width: 100%;
-    /* margin: 0 auto; */
-    justify-content: space-between;
-    padding-left: 0;
+   float: right;
+   margin: 10%;
+   font-family: fantasy;
+}
+
+.home-container h1{
+    font-size: 40px;
 }
 
 #porfolio-name{
@@ -35,15 +19,5 @@
     margin: 15px;
 }
 
-#porfolio-photo{
-    margin: 5px;
-}
 
 
-
-#porfolio-photo img{
-    min-width: 400px;
-    max-width: 80%;
-    min-height: 600px;
-    max-height: 60%;
-}
