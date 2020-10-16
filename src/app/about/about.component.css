@@ -1,6 +1,14 @@
+
 body {
     padding: 50px;
-}
+    width: 100%;
+    background: url('../../assets/background.jpeg') no-repeat;
+    background-size: auto;
+    color: white;
+    text-align: center;
+
+    font-family: Bradley Hand;
+  }
 
 .volga-arena{
     margin: 4%;

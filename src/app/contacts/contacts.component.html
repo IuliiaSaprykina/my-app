@@ -1,42 +1,12 @@
 <h1>Contact me</h1>
 
-
-<form [formGroup]="messageForm" (ngSubmit)="onSubmit()">
-
-  <h5 *ngIf="success">Your form is valid!</h5>
-
-  <label>
-    Name:
-    <input type="text" formControlName="name">
-    <div *ngIf="submitted && messageForm.controls.name.errors" class="error">
-      <div *ngIf="messageForm.controls.name.errors.required">Your name is required, bro.</div>
-    </div>
-  </label>
-
-  <label>
-    Email:
-    <textarea formControlName="email"></textarea>
-    <div *ngIf="submitted && messageForm.controls.email.errors" class="error">
-      <div *ngIf="messageForm.controls.email.errors.required">A email is required</div>
-    </div>
-  </label>
-
-  <label>
-    Message:
-    <textarea formControlName="message"></textarea>
-    <div *ngIf="submitted && messageForm.controls.message.errors" class="error">
-      <div *ngIf="messageForm.controls.message.errors.required">A message is required</div>
-    </div>
-  </label>
-
-  <input type="submit" value="Send message" class="cta">
-
-</form>
-
-<div *ngIf="submitted" class="results">
-  <strong>Name:</strong>
-  <span>{{ messageForm.controls.name.value }}</span>
-
-  <strong>Message:</strong> 
-  <span>{{ messageForm.controls.message.value }}</span>
+<div class="links">
+  <a href="mailto:iuliia.proskurnina@gmail.com" target="_blank" class="fa fa-google "></a>
+  <a href="https://www.linkedin.com/in/iuliia-saprykina-ab3351100/" target="_blank" class="fa fa-linkedin "></a>
+  <a href="https://github.com/IuliiaSaprykina" target="_blank" class="fa fa-github"></a>
+  <div class="pdf">
+    <a href="../../assets/Iuliia Saprykina Resume 13Oct20 (1).pdf" download>
+      <img class="pdf-img" src="../../assets/pdf-icon-round.png" alt="Resume">
+    </a>
+  </div>
 </div>

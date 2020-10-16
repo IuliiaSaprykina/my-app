@@ -1,57 +1,21 @@
 
-label {
-    display: block;
-}
 
 h1{
     font-size: 30px;
+    margin-left: 20%;
+}
+
+.links{
+    margin-top: 20%;
+    margin-left: 30%;
 }
     
-input, textarea {
-    display: block;
-    min-width: 400px;
-    margin-bottom: 20px;
-    padding: 1em;
+a {
+    margin: 5%;
 }
 
-.error {
-    margin-top: -20px;
-    background: yellow;
-    padding: .5em;
-    display: inline-block;
-    font-size: .9em;
-    margin-bottom: 20px;
-}
+.pdf-img {  
+    width: 55px;
+    
+  }
 
-.cta {
-    margin-left: 3%;
-    background: #bcc5c9;
-    border: none;
-    color: white;
-    border-radius: 4px;
-    padding: 1em;
-    cursor: pointer;
-    font-family: Bradley Hand;
-}
-
-.results {
-    margin-top: 50px;
-}
-strong {
-    display: block;
-}
-span {
-    margin-bottom: 20px;
-    display: block;
-}
-
-form{
-    font-size: 25px;
-    text-align: center;
-    float: right;
-    margin-top: 5%;
-    margin-right: 10%;
-    margin-bottom: 10%;
-    margin-left: 10%;
-    background-color: #72767fd4;
-}
