@@ -21,10 +21,17 @@ body {
 }
 
 .volga-photo{
+    height: 300px;
     width: auto 60%;
-    min-width: 350px;
+    min-width: 300px;
     margin-right: 5%;
     float: left;
+}
+
+.volga-photo-last{
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
 }
 
 .volga-arena h3{
@@ -48,7 +55,7 @@ body {
 }
 
 .masters-project{
-    margin: 4%;
+    /* margin: 4%; */
     border: 3px solid #6e696d;
     padding: 20px 40px 40px;
     min-width: 30%;
