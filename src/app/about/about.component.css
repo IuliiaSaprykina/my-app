@@ -55,7 +55,7 @@ body {
 }
 
 .masters-project{
-    /* margin: 4%; */
+    margin: 4%;
     border: 3px solid #6e696d;
     padding: 20px 40px 40px;
     min-width: 30%;
@@ -66,9 +66,17 @@ body {
 }
 
 .masters-video{
-    min-width: 350px;
+    max-width: 100%;
+    height: auto;
     margin-right: 5%;
     float: left;
+}
+
+iframe{
+    width: 755px;
+    height: 424px;
+    max-width: 100%;
+    max-height: calc((100vw - 40px) / (16/9));
 }
 
 .masters-text{
